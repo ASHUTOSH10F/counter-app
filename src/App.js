@@ -13,7 +13,6 @@ function App() {
               <Route exact path='/' element={<Home/>}/>
               <Route exact path='/counter' element={<Counter/>}/>
               <Route exact path='/contact-us' element={<Contact/>}/>
-              
               <Route exact path='*' element={<Error/>}/>
         
           </Routes>
